@@ -52,8 +52,8 @@ racket2 = Player('img.png', 520, 200, 50, 100, 15)
 ball = GameSprite('img.png', 200, 200, 30, 30, 50)
 
 font = font.Font(None, 35)
-lose1 = font.render('PLAYER 1 LOSE!', True, (180, 0, 0))
-lose2 = font.render('PLAYER 2 LOSE!', True, (180, 0, 0))
+lose1 = font.render('Победа правого ламината!', True, (100, 100, 255))
+lose2 = font.render('Победа левого ламината!', True, (100, 100, 255))
 while game:
     for e in event.get():
         if e.type == QUIT:
